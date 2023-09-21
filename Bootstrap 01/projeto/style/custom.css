@@ -1,0 +1,115 @@
+
+header {
+    padding: 2rem 0;
+    background-color: #ffeded;
+}
+
+section {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+h2 {   
+    font-size: 28px;
+}
+input,
+textarea {
+    margin-bottom: 1rem;
+}
+.logo, .card-title, h2 {
+    font-family: 'Croissant One', cursive;
+    color: #c193e1;
+}
+.nav-link {
+    color: #7a3aa5;
+    font-weight: 400;
+    font-size: 18px;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #62248d;
+}
+#sobre, #contato {
+    background-color: #f7fffc;
+}
+#sobre h2,
+#produtos h2  {
+    color: #45886f;
+}
+
+#sobre p {
+    color: #10593d;
+}
+#sobre .btn-success {
+    background-color: #59b18d;
+    border-color: #59b18d;
+    font-size: 18px;
+}
+
+#produtos {
+    background: #fffae0;
+    text-align: center;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    margin: 5px;
+    height: 600px; 
+}
+
+.card-body {
+    padding: 2rem;
+    background: #abd0ff; 
+    color: #fff;
+}
+.card-title {
+    color: #3a82dd;
+}
+.btn-success {
+    background-color: #17b76d;
+    border-color:#17b76d;
+}
+
+.btn-primary, #contato .btn-success, .btn-secondary {
+    background-color:  #3784e5;
+    border-color: #3784e5;}
+
+.input-group>.form-control { 
+    background: #fffae0;
+    border: none;
+}
+.modal-header { 
+    background: #fbc3c1;
+}
+
+.modal-title {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>*, 
+.table-hover>tbody>tr:hover>* {
+    background-color: #abd0ff;
+    color: #fff;
+}
+
+
+@media (max-width:768px) {
+    .card {
+        width: 100%; 
+        margin: 20px 5px;
+        height: auto;
+    }
+
+    #sobre .btn-success { 
+        font-size: 14px;
+    }
+}
+
+@media (max-width:540px) {
+    .logo {text-align: center;}
+
+    header .justify-content-end{
+        justify-content: center!important; 
+    }
+}
