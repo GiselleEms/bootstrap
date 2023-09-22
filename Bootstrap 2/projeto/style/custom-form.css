@@ -1,0 +1,58 @@
+textarea.form-control {
+    width: 100% !important;
+    resize:none;
+}
+
+#cadastro { 
+    background-color: #fffae0;
+}
+
+#cadastro h2 { 
+    color: #72c2cf;
+    font-size: 35px;
+}
+
+.input-group>.form-control, .form-control {
+    background: #ceefe2;
+    border: none;
+}
+
+.form-control:focus, .input-group>.form-control:focus {
+    color: #fff;
+    background-color: #f7d6e4;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+.col-form-label { 
+    color: #b884db;
+    font-weight: 500;
+}
+::placeholder, option, #estado {
+    font-size: .875rem;
+}
+.form-check { 
+    color: #52aebd;
+    font-weight: 500;
+    padding-left:0;
+}
+
+.btn-success {
+    background-color: #cab3d8;
+    border-color: #c8b2d7;
+    border-radius: 0;
+}
+.btn-success:hover { 
+    background-color: #62b6c9;
+    border-color:  #62b6c9;
+}
+
+a {
+    color: #c39ae1;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #86b7fe; 
+}

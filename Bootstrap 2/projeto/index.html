@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+    <title>BellaStyle - Exercício Módulo 19</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class=" col-sm-12 col-md-3 col-lg-5 ">
+                    <h1 class="logo">BellaStyle</h1>
+                </div>
+                <div class="col-sm-12 col-md-9 col-lg-7">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">A BellaStyle </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cadastro.html">Cadastro</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="slide">
+        <div class="container-fluid p-0">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="background-overlay"></div>
+                        <img class="img-fluid" src="./images/slide-01.jpg" alt="Primeiro slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Conheça mais sobre a BellaStyle</h3>
+                            <p>Peças artesanais exclusivas.</p>
+                          </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="background-overlay"></div>
+                        <img class="img-fluid" src="./images/slide-02.jpg" alt="Segundo slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Venha nos visitar!</h3>
+                            <p>Nossa loja física fica na paulista próxima a estação consolação.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="background-overlay"></div>
+                        <img class="img-fluid" src="./images/slide-03.jpg" alt="Terceiro slide">
+                        <div class="carousel-caption d-none d-md-block"> 
+                            <h3>Garanta sua peça exclusiva!</h3>
+                            <a class="btn btn-success" href="cadastro.html">Faça seu cadastro!</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h2>Bem-vindas à BellaStyle</h2>
+                    <p>Aqui, cada peça é mais do que apenas roupa; é um pedaço de arte, cuidadosamente confeccionado à mão para mulheres que valorizam a singularidade e a qualidade. Nossa missão é trazer à vida a essência da feminilidade através de designs exclusivos que refletem a paixão, a delicadeza e a força de cada mulher.</p>
+                    <p>Queremos que cada mulher que escolhe nossas peças se sinta especial, confiante e conectada à arte por trás de suas roupas. Explore nossa loja e descubra a magia de roupas feitas com amor e cuidado, uma verdadeira celebração da feminilidade e da autenticidade. </p>
+                    <a class="btn btn-lg btn-success mb-4" href="#"><img class="m-2" src="./images/whatsapp.png" alt=""> 
+                        <i class="fa-solid fa-phone"></i> Entre em contato pelo whatsapp</a>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <img src="./images/img-sobre-nos.jpg" alt="Imagem Exemplo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos">
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h2 class="mb-3">Produtos</h2>
+
+                    <div class="card">
+                        <img src="./images/modelo-01.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Conjunto BellaStyle</h5>
+                            <p class="card-text"> A calça dourada traz um toque de glamour, enquanto a camiseta laranja de manga longa com decote em V adiciona um toque de estilo e sofisticação. Juntas, essas peças criam um visual vibrante e deslumbrante, perfeito para ocasiões especiais ou para se destacar em qualquer evento.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1" >ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/modelo-02.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Jaqueta Jeans</h5>
+                            <p class="card-text">A jaqueta jeans é um clássico atemporal da moda, conhecida por sua versatilidade e estilo casual. Feita de denim resistente, ela é perfeita para adicionar um toque despojado a qualquer look, seja usado com jeans ou sobre um vestido.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2" >ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/modelo-03.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Camiseta</h5>
+                            <p class="card-text">Esta camisa oversize branca é a definição de conforto e estilo. Com um corte amplo e moderno, ela oferece um caimento descontraído e elegante. A amarração na cintura adiciona um toque de sofisticação e permite ajustar o visual de acordo com seu gosto pessoal. Perfeita para criar looks versáteis e cheios de personalidade.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3" >ver produto</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 mb-4">
+                    <h2>Sua satisfação é a nossa prioridade número um</h2>
+                    <p>Para entrar em contato conosco, você pode utilizar o formulário de contato. Nossa equipe de atendimento ao cliente estará pronta para responder a todas as suas dúvidas, auxiliar com qualquer problema que possa surgir e receber suas sugestões com entusiasmo.</p>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Quais são as opções de pagamento disponíveis?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Aceitamos várias opções de pagamento para sua conveniência. Você pode pagar pelo seu pedido usando cartões de crédito, débito ou Pix. Garantimos que todas as transações são seguras e protegidas para garantir a sua tranquilidade durante o processo de compra.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Qual é o prazo de entrega dos produtos?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">O prazo de entrega dos produtos da BellaStyle pode variar dependendo da sua localização e do método de envio escolhido. Geralmente, os pedidos são processados e enviados em até 2 dias úteis após a confirmação do pagamento. O prazo de entrega padrão para destinos nacionais varia de 7 a 15 dias úteis.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Qual é a política de trocas e devoluções?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Queremos garantir a sua satisfação. Por isso, aceitamos trocas e devoluções dentro de 30 dias a partir da data de recebimento do produto. Os itens devem estar em perfeito estado, com etiquetas originais e sem sinais de uso. Para iniciar o processo, entre em contato conosco através de nosso formulário. Nossa equipe terá prazer em auxiliá-lo.</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <form class="form">
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="Digite seu nome">
+                        </div>
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="Digite seu email">
+                        </div>
+
+                        <div class="input-group">
+                            <textarea  class="form-control" name="" rows="5"  placeholder="Digite sua mensagem"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-lg btn-success">Enviar</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Conjunto BellaStyle</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira o tamanho e os preços</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Tamanho</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>P</td>
+                                <td>R$ 500</td>
+                            </tr>
+                            <tr>
+                                <td>M</td>
+                                <td>R$ 600</td>
+                            </tr>
+                            <tr>
+                                <td>G</td>
+                                <td>R$ 700</td>
+                            </tr>
+
+                            <tr>
+                                <td>GG</td>
+                                <td>R$ 750</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="modal-2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Jaqueta Jeans</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira o tamanho e os preços</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Tamanho</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>P</td>
+                                <td>R$ 250</td>
+                            </tr>
+                            <tr>
+                                <td>M</td>
+                                <td>R$ 340</td>
+                            </tr>
+                            <tr>
+                                <td>G</td>
+                                <td>R$ 400</td>
+                            </tr>
+                            <tr>
+                                <td>GG</td>
+                                <td>R$ 450</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="modal-3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Camiseta</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira o tamanho e os preços</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Tamanho</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>P</td>
+                                <td>R$ 180</td>
+                            </tr>
+                            <tr>
+                                <td>M</td>
+                                <td>R$ 200</td>
+                            </tr>
+                            <tr>
+                                <td>G</td>
+                                <td>R$ 320</td>
+                            </tr>
+
+                            <tr>
+                                <td>GG</td>
+                                <td>R$ 390</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fexhar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="./libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
